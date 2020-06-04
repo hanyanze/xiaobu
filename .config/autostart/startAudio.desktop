@@ -1,4 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=T3RobotAudio
-Exec=bash /home/pi/.config/autoStartAudio.sh

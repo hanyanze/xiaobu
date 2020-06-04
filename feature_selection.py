@@ -21,7 +21,6 @@ def py_process_info(process_name):
         for line in out.splitlines():
             if "python3 " + process_name in line:
                 pid = int(line.split()[1])
-                # print("pid = ", pid)
                 return pid, True
         return 1, False
 
@@ -37,52 +36,45 @@ def process_info_stop(processId):
 
 if __name__ == "__main__":
     print('''****************************
-    (1)开启语音模块
-    (2)关闭语音模块
-    (3)训练唤醒词
-    (4)退出
+    (1)开启语音助手
+    (2)开启语音界面
+    (3)开启传感器控制
+    (4)训练唤醒词
+    (5)修改配置文件
+    (6)退出
 ****************************''')
     status = input("输入：")
     if status == "1":
-        #command = "./run.sh"
-        #out = os.popen(command).read()
-        os.system("./wukong-robot/run.sh")
+        os.system("cd ./xiaobu && python3 xiaobu.py")
     elif status == "2":
-        try:
-            process_result = py_process_info('main.py')
-            if process_result[0] != 1:
-                process_info_stop(process_result[0])
-        except Exception as e:
-            print(e)
-        try:
-            process_result = py_process_info('wukong.py')
-            if process_result[0] != 1:
-                process_info_stop(process_result[0])
-        except Exception as e:
-            print(e)
-        try:
-            process_result = py_process_info('LocalGateway.py')
-            if process_result[0] != 1:
-                process_info_stop(process_result[0])
-        except Exception as e:
-            print(e)
+        os.system("cd ./interface && python3 main.py")
     elif status == "3":
-        num = 3
-        i = 0
+        os.system("cd ./interface && python3 main_hass.py")
+    elif status == "4":
+        num = 4
+        i = 1
         name = input("输入训练模型名称：")
         if name != "":
             while i < num:
                 print("开始录音......")
-                os.system("python3 ./train/recoder.py " + str(i) + " > /dev/null 2>&1")
-                print("完成录音")
-                status = input("输入d删除，按下回车继续：")
-                if status == "d":
-                    path = "./train/test{}.wav".format(i)
-                    os.system("rm " + path)
+                path = "test{}.wav".format(i)
+                os.system("cd ./xiaobu/train/ && python3 recoder.py " + path + " > /dev/null 2>&1")
+                status = input("完成录音,是否保存并继续y/n,默认y:")
+                if status == "n":
+                    os.system("rm ./xiaobu/train/" + path)
                     i -= 1
+                    print("已删除上一录音,2秒后开始录音")
                 i += 1
+                if i < num:
+                    print("已保存,2秒后开始录音")
+                else:
+                    print("已保存,2秒后开始训练")
                 time.sleep(2)
-            print("开始训练......")
-            os.system("python3 ./wukong-robot/wukong.py train ~/train/test0.wav ~/train/test1.wav ~/train/test2.wav ~/.wukong/" + name + ".pmdl")
+            print("开始训练")
+            os.system("cd ./xiaobu && python3 xiaobu.py train ./train/test1.wav ./train/test2.wav ./train/test3.wav ../.xiaobu/" + name + ".pmdl")
+    elif status == "5":
+        os.system("vim .xiaobu/config.yml")
+    elif status == "6":
+        pass
     else:
         pass
