@@ -1,0 +1,736 @@
+2020-06-01 11:55:28,795 - robot.ASR - ASR.py - get_engine_by_slug - line 102 - INFO - 使用 baidu-asr ASR 引擎
+2020-06-01 11:55:28,796 - robot.AI - AI.py - get_robot_by_slug - line 128 - INFO - 使用 emotibot 对话机器人
+2020-06-01 11:55:28,797 - robot.TTS - TTS.py - get_engine_by_slug - line 100 - INFO - 使用 baidu-tts TTS 引擎
+2020-06-01 11:55:28,799 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 CleanCache 加载成功 
+2020-06-01 11:55:28,802 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 LocalPlayer 加载成功 
+2020-06-01 11:55:28,804 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Volume 加载成功 
+2020-06-01 11:55:28,807 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Hass 加载成功 
+2020-06-01 11:55:28,809 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 RaspberryPiStatus 加载成功 
+2020-06-01 11:55:28,814 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 SpeakIP 加载成功 
+2020-06-01 11:55:29,560 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 crontab 加载成功 
+2020-06-01 11:55:29,562 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 getTime 加载成功 
+2020-06-01 11:55:29,563 - robot.Brain - Brain.py - printPlugins - line 52 - INFO - 已激活插件：['cleancache', 'LocalPlayer', 'Volume', 'hass', 'pi_status', 'speak_ip', 'crontab', 'getTime']
+2020-06-01 11:55:30,069 - robot.TTS - TTS.py - get_speech - line 72 - INFO - baidu-tts 语音合成成功，合成路径：/tmp/tmpvxmcl_6a.mp3
+2020-06-01 11:55:46,938 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-01 11:55:46
+2020-06-01 11:55:48,008 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-01 11:55:50,859 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-01 11:55:51,255 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['设备状态。']
+2020-06-01 11:55:51,267 - robot.Brain - Brain.py - query - line 65 - INFO - '设备状态。' 命中技能 pi_status
+2020-06-01 11:55:51,826 - robot.TTS - TTS.py - get_speech - line 72 - INFO - baidu-tts 语音合成成功，合成路径：/tmp/tmp4rovcycm.mp3
+2020-06-01 11:56:15,695 - robot.ASR - ASR.py - get_engine_by_slug - line 102 - INFO - 使用 baidu-asr ASR 引擎
+2020-06-01 11:56:15,697 - robot.AI - AI.py - get_robot_by_slug - line 128 - INFO - 使用 emotibot 对话机器人
+2020-06-01 11:56:15,697 - robot.TTS - TTS.py - get_engine_by_slug - line 100 - INFO - 使用 baidu-tts TTS 引擎
+2020-06-01 11:56:15,700 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 CleanCache 加载成功 
+2020-06-01 11:56:15,702 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 LocalPlayer 加载成功 
+2020-06-01 11:56:15,704 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Volume 加载成功 
+2020-06-01 11:56:15,708 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Hass 加载成功 
+2020-06-01 11:56:15,710 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 RaspberryPiStatus 加载成功 
+2020-06-01 11:56:15,712 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 SpeakIP 加载成功 
+2020-06-01 11:56:16,465 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 crontab 加载成功 
+2020-06-01 11:56:16,466 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 getTime 加载成功 
+2020-06-01 11:56:16,467 - robot.Brain - Brain.py - printPlugins - line 52 - INFO - 已激活插件：['cleancache', 'LocalPlayer', 'Volume', 'hass', 'pi_status', 'speak_ip', 'crontab', 'getTime']
+2020-06-01 11:56:16,473 - robot.Conversation - Conversation.py - say - line 193 - INFO - 命中缓存，播放缓存语音
+2020-06-01 11:56:20,645 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-01 11:56:20
+2020-06-01 11:56:21,736 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-01 11:56:34,358 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-01 11:56:34,707 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['设备状态。']
+2020-06-01 11:56:34,718 - robot.Brain - Brain.py - query - line 65 - INFO - '设备状态。' 命中技能 pi_status
+2020-06-01 11:56:35,860 - robot.TTS - TTS.py - get_speech - line 72 - INFO - baidu-tts 语音合成成功，合成路径：/tmp/tmp73r_fc4z.mp3
+2020-06-01 11:57:31,499 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-01 11:57:31
+2020-06-01 11:57:32,586 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-01 11:57:44,922 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-01 11:57:45,302 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['说明状态。']
+2020-06-01 11:57:45,305 - robot.Brain - Brain.py - query - line 65 - INFO - '说明状态。' 命中技能 pi_status
+2020-06-01 11:57:45,711 - robot.TTS - TTS.py - get_speech - line 72 - INFO - baidu-tts 语音合成成功，合成路径：/tmp/tmpxov5fgcq.mp3
+2020-06-01 12:00:20,594 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-01 12:00:20
+2020-06-01 12:00:21,677 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-01 12:00:34,129 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-01 12:00:34,695 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['把灯打开。']
+2020-06-01 12:00:34,698 - robot.Brain - Brain.py - query - line 65 - INFO - '把灯打开。' 命中技能 hass
+2020-06-01 12:00:35,426 - robot.Conversation - Conversation.py - say - line 193 - INFO - 命中缓存，播放缓存语音
+2020-06-01 12:12:18,406 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-01 12:12:18
+2020-06-01 12:12:19,476 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-01 12:12:31,706 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-01 12:12:32,027 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['设备状态。']
+2020-06-01 12:12:32,030 - robot.Brain - Brain.py - query - line 65 - INFO - '设备状态。' 命中技能 pi_status
+2020-06-01 12:12:32,376 - robot.TTS - TTS.py - get_speech - line 72 - INFO - baidu-tts 语音合成成功，合成路径：/tmp/tmp1s3ugrrg.mp3
+2020-06-01 13:16:42,507 - robot.ASR - ASR.py - get_engine_by_slug - line 102 - INFO - 使用 baidu-asr ASR 引擎
+2020-06-01 13:16:42,512 - robot.AI - AI.py - get_robot_by_slug - line 128 - INFO - 使用 emotibot 对话机器人
+2020-06-01 13:16:42,513 - robot.TTS - TTS.py - get_engine_by_slug - line 100 - INFO - 使用 baidu-tts TTS 引擎
+2020-06-01 13:16:42,517 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 CleanCache 加载成功 
+2020-06-01 13:16:42,521 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 LocalPlayer 加载成功 
+2020-06-01 13:16:42,525 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Volume 加载成功 
+2020-06-01 13:16:42,532 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Hass 加载成功 
+2020-06-01 13:16:42,535 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 RaspberryPiStatus 加载成功 
+2020-06-01 13:16:42,540 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 SpeakIP 加载成功 
+2020-06-01 13:16:43,522 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 crontab 加载成功 
+2020-06-01 13:16:43,525 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 getTime 加载成功 
+2020-06-01 13:16:43,525 - robot.Brain - Brain.py - printPlugins - line 52 - INFO - 已激活插件：['cleancache', 'LocalPlayer', 'Volume', 'hass', 'pi_status', 'speak_ip', 'crontab', 'getTime']
+2020-06-01 13:16:43,532 - robot.Conversation - Conversation.py - say - line 193 - INFO - 命中缓存，播放缓存语音
+2020-06-01 13:17:05,226 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-01 13:17:05
+2020-06-01 13:17:06,378 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-01 13:17:09,389 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-01 13:17:10,236 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['把灯关了。']
+2020-06-01 13:17:10,243 - robot.Brain - Brain.py - query - line 65 - INFO - '把灯关了。' 命中技能 hass
+2020-06-01 13:17:11,012 - robot.Conversation - Conversation.py - say - line 193 - INFO - 命中缓存，播放缓存语音
+2020-06-01 13:17:32,448 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-01 13:17:32
+2020-06-01 13:17:33,575 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-01 13:17:35,637 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-01 13:17:36,155 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['把灯关了。']
+2020-06-01 13:17:36,159 - robot.Brain - Brain.py - query - line 65 - INFO - '把灯关了。' 命中技能 hass
+2020-06-01 13:17:36,887 - robot.Conversation - Conversation.py - say - line 193 - INFO - 命中缓存，播放缓存语音
+2020-06-01 13:18:29,157 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-01 13:18:29
+2020-06-01 13:18:30,282 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-01 13:18:33,047 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-01 13:18:33,424 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['把灯打开。']
+2020-06-01 13:18:33,428 - robot.Brain - Brain.py - query - line 65 - INFO - '把灯打开。' 命中技能 hass
+2020-06-01 13:18:34,201 - robot.Conversation - Conversation.py - say - line 193 - INFO - 命中缓存，播放缓存语音
+2020-06-01 13:21:29,372 - robot.ASR - ASR.py - get_engine_by_slug - line 102 - INFO - 使用 baidu-asr ASR 引擎
+2020-06-01 13:21:29,377 - robot.AI - AI.py - get_robot_by_slug - line 128 - INFO - 使用 emotibot 对话机器人
+2020-06-01 13:21:29,378 - robot.TTS - TTS.py - get_engine_by_slug - line 100 - INFO - 使用 baidu-tts TTS 引擎
+2020-06-01 13:21:29,382 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 CleanCache 加载成功 
+2020-06-01 13:21:29,386 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 LocalPlayer 加载成功 
+2020-06-01 13:21:29,389 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Volume 加载成功 
+2020-06-01 13:21:29,396 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Hass 加载成功 
+2020-06-01 13:21:29,399 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 RaspberryPiStatus 加载成功 
+2020-06-01 13:21:29,402 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 SpeakIP 加载成功 
+2020-06-01 13:21:30,202 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 crontab 加载成功 
+2020-06-01 13:21:30,205 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 getTime 加载成功 
+2020-06-01 13:21:30,205 - robot.Brain - Brain.py - printPlugins - line 52 - INFO - 已激活插件：['cleancache', 'LocalPlayer', 'Volume', 'hass', 'pi_status', 'speak_ip', 'crontab', 'getTime']
+2020-06-01 13:21:30,212 - robot.Conversation - Conversation.py - say - line 193 - INFO - 命中缓存，播放缓存语音
+2020-06-01 13:21:34,389 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-01 13:21:34
+2020-06-01 13:21:35,513 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-01 13:21:38,393 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-01 13:21:44,038 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['把灯打开。']
+2020-06-01 13:21:44,042 - robot.Brain - Brain.py - query - line 65 - INFO - '把灯打开。' 命中技能 hass
+2020-06-01 13:21:44,794 - robot.Conversation - Conversation.py - say - line 193 - INFO - 命中缓存，播放缓存语音
+2020-06-01 13:21:50,715 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-01 13:21:50
+2020-06-01 13:21:51,813 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-01 13:21:54,828 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-01 13:21:55,958 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['把灯关了。']
+2020-06-01 13:21:55,960 - robot.Brain - Brain.py - query - line 65 - INFO - '把灯关了。' 命中技能 hass
+2020-06-01 13:21:56,743 - robot.Conversation - Conversation.py - say - line 193 - INFO - 命中缓存，播放缓存语音
+2020-06-01 13:22:38,403 - robot.ASR - ASR.py - get_engine_by_slug - line 102 - INFO - 使用 baidu-asr ASR 引擎
+2020-06-01 13:22:38,405 - robot.AI - AI.py - get_robot_by_slug - line 128 - INFO - 使用 emotibot 对话机器人
+2020-06-01 13:22:38,406 - robot.TTS - TTS.py - get_engine_by_slug - line 100 - INFO - 使用 baidu-tts TTS 引擎
+2020-06-01 13:22:38,409 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 CleanCache 加载成功 
+2020-06-01 13:22:38,411 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 LocalPlayer 加载成功 
+2020-06-01 13:22:38,414 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Volume 加载成功 
+2020-06-01 13:22:38,418 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Hass 加载成功 
+2020-06-01 13:22:38,421 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 RaspberryPiStatus 加载成功 
+2020-06-01 13:22:38,424 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 SpeakIP 加载成功 
+2020-06-01 13:22:39,328 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 crontab 加载成功 
+2020-06-01 13:22:39,330 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 getTime 加载成功 
+2020-06-01 13:22:39,330 - robot.Brain - Brain.py - printPlugins - line 52 - INFO - 已激活插件：['cleancache', 'LocalPlayer', 'Volume', 'hass', 'pi_status', 'speak_ip', 'crontab', 'getTime']
+2020-06-01 13:22:39,337 - robot.Conversation - Conversation.py - say - line 193 - INFO - 命中缓存，播放缓存语音
+2020-06-01 13:22:48,042 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-01 13:22:48
+2020-06-01 13:22:49,179 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-01 13:22:51,570 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-01 13:22:51,805 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['把灯打开。']
+2020-06-01 13:22:51,808 - robot.Brain - Brain.py - query - line 65 - INFO - '把灯打开。' 命中技能 hass
+2020-06-01 13:22:52,658 - robot.Conversation - Conversation.py - say - line 193 - INFO - 命中缓存，播放缓存语音
+2020-06-01 13:26:02,109 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-01 13:26:02
+2020-06-01 13:26:03,169 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-01 13:26:05,412 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-01 13:26:06,327 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['没事。']
+2020-06-01 13:26:07,737 - robot.AI - AI.py - chat - line 84 - INFO - emotibot 回答：为什么会有一点淡淡的忧桑……
+2020-06-01 13:26:08,364 - robot.TTS - TTS.py - get_speech - line 72 - INFO - baidu-tts 语音合成成功，合成路径：/tmp/tmpsqhiq9v2.mp3
+2020-06-01 14:31:53,190 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-01 14:31:53
+2020-06-01 14:31:54,281 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-01 14:31:57,321 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-01 14:31:57,891 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['把灯打开。']
+2020-06-01 14:31:57,894 - robot.Brain - Brain.py - query - line 65 - INFO - '把灯打开。' 命中技能 hass
+2020-06-01 14:31:58,637 - robot.Conversation - Conversation.py - say - line 193 - INFO - 命中缓存，播放缓存语音
+2020-06-01 14:32:05,484 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-01 14:32:05
+2020-06-01 14:32:06,569 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-01 14:32:09,504 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-01 14:32:09,699 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['把灯打开。']
+2020-06-01 14:32:09,702 - robot.Brain - Brain.py - query - line 65 - INFO - '把灯打开。' 命中技能 hass
+2020-06-01 14:32:10,519 - robot.Conversation - Conversation.py - say - line 193 - INFO - 命中缓存，播放缓存语音
+2020-06-01 14:32:14,468 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-01 14:32:14
+2020-06-01 14:32:15,529 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-01 14:32:18,368 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-01 14:32:18,572 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['把灯关了。']
+2020-06-01 14:32:18,575 - robot.Brain - Brain.py - query - line 65 - INFO - '把灯关了。' 命中技能 hass
+2020-06-01 14:32:19,268 - robot.Conversation - Conversation.py - say - line 193 - INFO - 命中缓存，播放缓存语音
+2020-06-01 14:32:23,272 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-01 14:32:23
+2020-06-01 14:32:24,361 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-01 14:32:27,134 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-01 14:32:28,084 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['设备状态。']
+2020-06-01 14:32:28,087 - robot.Brain - Brain.py - query - line 65 - INFO - '设备状态。' 命中技能 pi_status
+2020-06-01 14:32:28,654 - robot.TTS - TTS.py - get_speech - line 72 - INFO - baidu-tts 语音合成成功，合成路径：/tmp/tmpzgjohsqf.mp3
+2020-06-01 14:57:01,547 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-01 14:57:01
+2020-06-01 14:57:02,635 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-01 14:57:04,752 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-01 14:57:05,404 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['到那个地方你去看看，但是我们当时想的是。']
+2020-06-01 14:57:07,119 - robot.AI - AI.py - chat - line 84 - INFO - emotibot 回答：这种命令的语气一听就怕怕的~
+2020-06-01 14:57:07,471 - robot.TTS - TTS.py - get_speech - line 72 - INFO - baidu-tts 语音合成成功，合成路径：/tmp/tmpybkl12yu.mp3
+2020-06-01 15:02:16,207 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-01 15:02:16
+2020-06-01 15:02:17,309 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-01 15:02:20,276 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-01 15:02:20,588 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['就是我只记得就从上届开始我就。']
+2020-06-01 15:02:21,612 - robot.AI - AI.py - chat - line 84 - INFO - emotibot 回答：我可是记得清清楚楚哦
+2020-06-01 15:02:21,943 - robot.TTS - TTS.py - get_speech - line 72 - INFO - baidu-tts 语音合成成功，合成路径：/tmp/tmprlo30lcz.mp3
+2020-06-01 17:43:06,667 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-01 17:43:06
+2020-06-01 17:43:07,755 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-01 17:43:10,761 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-01 17:43:12,722 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['把灯打开。']
+2020-06-01 17:43:12,725 - robot.Brain - Brain.py - query - line 65 - INFO - '把灯打开。' 命中技能 hass
+2020-06-01 17:43:13,487 - robot.Conversation - Conversation.py - say - line 193 - INFO - 命中缓存，播放缓存语音
+2020-06-01 17:43:29,160 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-01 17:43:29
+2020-06-01 17:43:30,219 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-01 17:43:32,480 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-01 17:43:32,828 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['把灯关了。']
+2020-06-01 17:43:32,830 - robot.Brain - Brain.py - query - line 65 - INFO - '把灯关了。' 命中技能 hass
+2020-06-01 17:43:33,628 - robot.Conversation - Conversation.py - say - line 193 - INFO - 命中缓存，播放缓存语音
+2020-06-01 17:43:49,133 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-01 17:43:49
+2020-06-01 17:43:50,254 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-01 17:43:53,175 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-01 17:43:58,803 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['上周四那个上周四当时那个现象。']
+2020-06-01 17:44:01,109 - robot.AI - AI.py - chat - line 84 - INFO - emotibot 回答：比起这个，我比较想和你聊聊娱乐的话题呢~
+2020-06-01 17:44:01,763 - robot.TTS - TTS.py - get_speech - line 72 - INFO - baidu-tts 语音合成成功，合成路径：/tmp/tmp_a6ykoez.mp3
+2020-06-01 17:46:12,919 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-01 17:46:12
+2020-06-01 17:46:14,016 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-01 17:46:16,234 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-01 17:46:16,445 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['把把灯打开。']
+2020-06-01 17:46:16,449 - robot.Brain - Brain.py - query - line 65 - INFO - '把把灯打开。' 命中技能 hass
+2020-06-01 17:46:18,139 - robot.Conversation - Conversation.py - say - line 193 - INFO - 命中缓存，播放缓存语音
+2020-06-01 17:47:00,196 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-01 17:47:00
+2020-06-01 17:47:01,316 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-01 17:47:03,488 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-01 17:47:03,841 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['把灯打开。']
+2020-06-01 17:47:03,846 - robot.Brain - Brain.py - query - line 65 - INFO - '把灯打开。' 命中技能 hass
+2020-06-01 17:47:05,323 - robot.Conversation - Conversation.py - say - line 193 - INFO - 命中缓存，播放缓存语音
+2020-06-01 17:47:22,430 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-01 17:47:22
+2020-06-01 17:47:23,525 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-01 17:47:25,648 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-01 17:47:26,316 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['她灯关了。']
+2020-06-01 17:47:26,318 - robot.Brain - Brain.py - query - line 65 - INFO - '她灯关了。' 命中技能 hass
+2020-06-01 17:47:27,089 - robot.Conversation - Conversation.py - say - line 193 - INFO - 命中缓存，播放缓存语音
+2020-06-02 09:09:11,896 - robot.ASR - ASR.py - get_engine_by_slug - line 102 - INFO - 使用 baidu-asr ASR 引擎
+2020-06-02 09:09:11,902 - robot.AI - AI.py - get_robot_by_slug - line 128 - INFO - 使用 emotibot 对话机器人
+2020-06-02 09:09:11,902 - robot.TTS - TTS.py - get_engine_by_slug - line 100 - INFO - 使用 baidu-tts TTS 引擎
+2020-06-02 09:09:11,908 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 CleanCache 加载成功 
+2020-06-02 09:09:11,911 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 LocalPlayer 加载成功 
+2020-06-02 09:09:11,915 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Volume 加载成功 
+2020-06-02 09:09:11,921 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Hass 加载成功 
+2020-06-02 09:09:11,925 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 RaspberryPiStatus 加载成功 
+2020-06-02 09:09:11,928 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 SpeakIP 加载成功 
+2020-06-02 09:09:12,718 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 crontab 加载成功 
+2020-06-02 09:09:12,721 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 getTime 加载成功 
+2020-06-02 09:09:12,721 - robot.Brain - Brain.py - printPlugins - line 52 - INFO - 已激活插件：['cleancache', 'LocalPlayer', 'Volume', 'hass', 'pi_status', 'speak_ip', 'crontab', 'getTime']
+2020-06-02 09:09:12,728 - robot.Conversation - Conversation.py - say - line 193 - INFO - 命中缓存，播放缓存语音
+2020-06-02 09:10:33,386 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-02 09:10:33
+2020-06-02 09:10:34,461 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-02 09:10:37,475 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-02 09:10:38,071 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['把灯打开。']
+2020-06-02 09:10:38,075 - robot.Brain - Brain.py - query - line 65 - INFO - '把灯打开。' 命中技能 hass
+2020-06-02 09:10:38,802 - robot.Conversation - Conversation.py - say - line 193 - INFO - 命中缓存，播放缓存语音
+2020-06-02 09:10:52,277 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-02 09:10:52
+2020-06-02 09:10:53,341 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-02 09:10:55,995 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-02 09:10:56,409 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['把灯关了。']
+2020-06-02 09:10:56,412 - robot.Brain - Brain.py - query - line 65 - INFO - '把灯关了。' 命中技能 hass
+2020-06-02 09:10:57,168 - robot.Conversation - Conversation.py - say - line 193 - INFO - 命中缓存，播放缓存语音
+2020-06-02 09:42:11,265 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-02 09:42:11
+2020-06-02 09:42:12,333 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-02 09:42:14,488 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-02 09:42:14,899 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['把灯打开。']
+2020-06-02 09:42:14,901 - robot.Brain - Brain.py - query - line 65 - INFO - '把灯打开。' 命中技能 hass
+2020-06-02 09:42:15,607 - robot.Conversation - Conversation.py - say - line 193 - INFO - 命中缓存，播放缓存语音
+2020-06-02 09:42:20,014 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-02 09:42:20
+2020-06-02 09:42:21,101 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-02 09:42:24,132 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-02 09:42:24,507 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['把灯关了。']
+2020-06-02 09:42:24,509 - robot.Brain - Brain.py - query - line 65 - INFO - '把灯关了。' 命中技能 hass
+2020-06-02 09:42:25,267 - robot.Conversation - Conversation.py - say - line 193 - INFO - 命中缓存，播放缓存语音
+2020-06-02 09:43:54,075 - robot.ConfigMonitor - ConfigMonitor.py - on_modified - line 23 - INFO - 检测到文件 /home/pi/xiaobu-smartHome/.xiaobu/config.yml 发生变更
+2020-06-02 09:43:54,130 - robot.ASR - ASR.py - get_engine_by_slug - line 102 - INFO - 使用 baidu-asr ASR 引擎
+2020-06-02 09:43:54,131 - robot.AI - AI.py - get_robot_by_slug - line 128 - INFO - 使用 emotibot 对话机器人
+2020-06-02 09:43:54,132 - robot.TTS - TTS.py - get_engine_by_slug - line 100 - INFO - 使用 baidu-tts TTS 引擎
+2020-06-02 09:43:54,135 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 CleanCache 加载成功 
+2020-06-02 09:43:54,138 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 LocalPlayer 加载成功 
+2020-06-02 09:43:54,140 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Volume 加载成功 
+2020-06-02 09:43:54,143 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Hass 加载成功 
+2020-06-02 09:43:54,147 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 RaspberryPiStatus 加载成功 
+2020-06-02 09:43:54,149 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 SpeakIP 加载成功 
+2020-06-02 09:43:54,151 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 crontab 加载成功 
+2020-06-02 09:43:54,153 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 getTime 加载成功 
+2020-06-02 09:43:54,153 - robot.Brain - Brain.py - printPlugins - line 52 - INFO - 已激活插件：['cleancache', 'LocalPlayer', 'Volume', 'hass', 'pi_status', 'speak_ip', 'crontab', 'getTime']
+2020-06-02 09:43:54,215 - robot.ConfigMonitor - ConfigMonitor.py - on_modified - line 23 - INFO - 检测到文件 /home/pi/xiaobu-smartHome/.xiaobu/config.yml 发生变更
+2020-06-02 09:43:54,265 - robot.ASR - ASR.py - get_engine_by_slug - line 102 - INFO - 使用 baidu-asr ASR 引擎
+2020-06-02 09:43:54,267 - robot.AI - AI.py - get_robot_by_slug - line 128 - INFO - 使用 emotibot 对话机器人
+2020-06-02 09:43:54,268 - robot.TTS - TTS.py - get_engine_by_slug - line 100 - INFO - 使用 baidu-tts TTS 引擎
+2020-06-02 09:43:54,269 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 CleanCache 加载成功 
+2020-06-02 09:43:54,272 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 LocalPlayer 加载成功 
+2020-06-02 09:43:54,274 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Volume 加载成功 
+2020-06-02 09:43:54,279 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Hass 加载成功 
+2020-06-02 09:43:54,282 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 RaspberryPiStatus 加载成功 
+2020-06-02 09:43:54,284 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 SpeakIP 加载成功 
+2020-06-02 09:43:54,286 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 crontab 加载成功 
+2020-06-02 09:43:54,288 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 getTime 加载成功 
+2020-06-02 09:43:54,288 - robot.Brain - Brain.py - printPlugins - line 52 - INFO - 已激活插件：['cleancache', 'LocalPlayer', 'Volume', 'hass', 'pi_status', 'speak_ip', 'crontab', 'getTime']
+2020-06-02 09:44:01,073 - robot.ConfigMonitor - ConfigMonitor.py - on_modified - line 23 - INFO - 检测到文件 /home/pi/xiaobu-smartHome/.xiaobu/config.yml 发生变更
+2020-06-02 09:44:01,124 - robot.ASR - ASR.py - get_engine_by_slug - line 102 - INFO - 使用 baidu-asr ASR 引擎
+2020-06-02 09:44:01,125 - robot.AI - AI.py - get_robot_by_slug - line 128 - INFO - 使用 emotibot 对话机器人
+2020-06-02 09:44:01,126 - robot.TTS - TTS.py - get_engine_by_slug - line 100 - INFO - 使用 baidu-tts TTS 引擎
+2020-06-02 09:44:01,128 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 CleanCache 加载成功 
+2020-06-02 09:44:01,130 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 LocalPlayer 加载成功 
+2020-06-02 09:44:01,133 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Volume 加载成功 
+2020-06-02 09:44:01,136 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Hass 加载成功 
+2020-06-02 09:44:01,138 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 RaspberryPiStatus 加载成功 
+2020-06-02 09:44:01,141 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 SpeakIP 加载成功 
+2020-06-02 09:44:01,143 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 crontab 加载成功 
+2020-06-02 09:44:01,144 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 getTime 加载成功 
+2020-06-02 09:44:01,145 - robot.Brain - Brain.py - printPlugins - line 52 - INFO - 已激活插件：['cleancache', 'LocalPlayer', 'Volume', 'hass', 'pi_status', 'speak_ip', 'crontab', 'getTime']
+2020-06-02 09:44:01,199 - robot.ConfigMonitor - ConfigMonitor.py - on_modified - line 23 - INFO - 检测到文件 /home/pi/xiaobu-smartHome/.xiaobu/config.yml 发生变更
+2020-06-02 09:44:01,250 - robot.ASR - ASR.py - get_engine_by_slug - line 102 - INFO - 使用 baidu-asr ASR 引擎
+2020-06-02 09:44:01,252 - robot.AI - AI.py - get_robot_by_slug - line 128 - INFO - 使用 emotibot 对话机器人
+2020-06-02 09:44:01,253 - robot.TTS - TTS.py - get_engine_by_slug - line 100 - INFO - 使用 baidu-tts TTS 引擎
+2020-06-02 09:44:01,255 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 CleanCache 加载成功 
+2020-06-02 09:44:01,257 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 LocalPlayer 加载成功 
+2020-06-02 09:44:01,259 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Volume 加载成功 
+2020-06-02 09:44:01,265 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Hass 加载成功 
+2020-06-02 09:44:01,267 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 RaspberryPiStatus 加载成功 
+2020-06-02 09:44:01,269 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 SpeakIP 加载成功 
+2020-06-02 09:44:01,271 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 crontab 加载成功 
+2020-06-02 09:44:01,273 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 getTime 加载成功 
+2020-06-02 09:44:01,273 - robot.Brain - Brain.py - printPlugins - line 52 - INFO - 已激活插件：['cleancache', 'LocalPlayer', 'Volume', 'hass', 'pi_status', 'speak_ip', 'crontab', 'getTime']
+2020-06-02 09:44:13,569 - robot.ConfigMonitor - ConfigMonitor.py - on_modified - line 23 - INFO - 检测到文件 /home/pi/xiaobu-smartHome/.xiaobu/config.yml 发生变更
+2020-06-02 09:44:13,620 - robot.ASR - ASR.py - get_engine_by_slug - line 102 - INFO - 使用 baidu-asr ASR 引擎
+2020-06-02 09:44:13,621 - robot.AI - AI.py - get_robot_by_slug - line 128 - INFO - 使用 emotibot 对话机器人
+2020-06-02 09:44:13,622 - robot.TTS - TTS.py - get_engine_by_slug - line 100 - INFO - 使用 baidu-tts TTS 引擎
+2020-06-02 09:44:13,624 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 CleanCache 加载成功 
+2020-06-02 09:44:13,627 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 LocalPlayer 加载成功 
+2020-06-02 09:44:13,629 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Volume 加载成功 
+2020-06-02 09:44:13,631 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Hass 加载成功 
+2020-06-02 09:44:13,633 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 RaspberryPiStatus 加载成功 
+2020-06-02 09:44:13,636 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 SpeakIP 加载成功 
+2020-06-02 09:44:13,638 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 crontab 加载成功 
+2020-06-02 09:44:13,640 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 getTime 加载成功 
+2020-06-02 09:44:13,641 - robot.Brain - Brain.py - printPlugins - line 52 - INFO - 已激活插件：['cleancache', 'LocalPlayer', 'Volume', 'hass', 'pi_status', 'speak_ip', 'crontab', 'getTime']
+2020-06-02 09:44:13,696 - robot.ConfigMonitor - ConfigMonitor.py - on_modified - line 23 - INFO - 检测到文件 /home/pi/xiaobu-smartHome/.xiaobu/config.yml 发生变更
+2020-06-02 09:44:13,747 - robot.ASR - ASR.py - get_engine_by_slug - line 102 - INFO - 使用 baidu-asr ASR 引擎
+2020-06-02 09:44:13,748 - robot.AI - AI.py - get_robot_by_slug - line 128 - INFO - 使用 emotibot 对话机器人
+2020-06-02 09:44:13,749 - robot.TTS - TTS.py - get_engine_by_slug - line 100 - INFO - 使用 baidu-tts TTS 引擎
+2020-06-02 09:44:13,751 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 CleanCache 加载成功 
+2020-06-02 09:44:13,753 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 LocalPlayer 加载成功 
+2020-06-02 09:44:13,755 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Volume 加载成功 
+2020-06-02 09:44:13,758 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Hass 加载成功 
+2020-06-02 09:44:13,760 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 RaspberryPiStatus 加载成功 
+2020-06-02 09:44:13,763 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 SpeakIP 加载成功 
+2020-06-02 09:44:13,765 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 crontab 加载成功 
+2020-06-02 09:44:13,767 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 getTime 加载成功 
+2020-06-02 09:44:13,767 - robot.Brain - Brain.py - printPlugins - line 52 - INFO - 已激活插件：['cleancache', 'LocalPlayer', 'Volume', 'hass', 'pi_status', 'speak_ip', 'crontab', 'getTime']
+2020-06-02 09:44:18,092 - robot.ConfigMonitor - ConfigMonitor.py - on_modified - line 23 - INFO - 检测到文件 /home/pi/xiaobu-smartHome/.xiaobu/config.yml 发生变更
+2020-06-02 09:44:18,143 - robot.ASR - ASR.py - get_engine_by_slug - line 102 - INFO - 使用 baidu-asr ASR 引擎
+2020-06-02 09:44:18,144 - robot.AI - AI.py - get_robot_by_slug - line 128 - INFO - 使用 emotibot 对话机器人
+2020-06-02 09:44:18,145 - robot.TTS - TTS.py - get_engine_by_slug - line 100 - INFO - 使用 baidu-tts TTS 引擎
+2020-06-02 09:44:18,147 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 CleanCache 加载成功 
+2020-06-02 09:44:18,149 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 LocalPlayer 加载成功 
+2020-06-02 09:44:18,151 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Volume 加载成功 
+2020-06-02 09:44:18,154 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Hass 加载成功 
+2020-06-02 09:44:18,156 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 RaspberryPiStatus 加载成功 
+2020-06-02 09:44:18,159 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 SpeakIP 加载成功 
+2020-06-02 09:44:18,161 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 crontab 加载成功 
+2020-06-02 09:44:18,163 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 getTime 加载成功 
+2020-06-02 09:44:18,163 - robot.Brain - Brain.py - printPlugins - line 52 - INFO - 已激活插件：['cleancache', 'LocalPlayer', 'Volume', 'hass', 'pi_status', 'speak_ip', 'crontab', 'getTime']
+2020-06-02 09:44:18,221 - robot.ConfigMonitor - ConfigMonitor.py - on_modified - line 23 - INFO - 检测到文件 /home/pi/xiaobu-smartHome/.xiaobu/config.yml 发生变更
+2020-06-02 09:44:18,272 - robot.ASR - ASR.py - get_engine_by_slug - line 102 - INFO - 使用 baidu-asr ASR 引擎
+2020-06-02 09:44:18,273 - robot.AI - AI.py - get_robot_by_slug - line 128 - INFO - 使用 emotibot 对话机器人
+2020-06-02 09:44:18,274 - robot.TTS - TTS.py - get_engine_by_slug - line 100 - INFO - 使用 baidu-tts TTS 引擎
+2020-06-02 09:44:18,276 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 CleanCache 加载成功 
+2020-06-02 09:44:18,278 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 LocalPlayer 加载成功 
+2020-06-02 09:44:18,280 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Volume 加载成功 
+2020-06-02 09:44:18,282 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Hass 加载成功 
+2020-06-02 09:44:18,285 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 RaspberryPiStatus 加载成功 
+2020-06-02 09:44:18,288 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 SpeakIP 加载成功 
+2020-06-02 09:44:18,290 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 crontab 加载成功 
+2020-06-02 09:44:18,292 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 getTime 加载成功 
+2020-06-02 09:44:18,292 - robot.Brain - Brain.py - printPlugins - line 52 - INFO - 已激活插件：['cleancache', 'LocalPlayer', 'Volume', 'hass', 'pi_status', 'speak_ip', 'crontab', 'getTime']
+2020-06-02 10:00:10,924 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-02 10:00:10
+2020-06-02 10:00:12,002 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-02 10:00:15,034 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-02 10:00:15,684 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['那个那四个给他合在一起合在一起之后呢？']
+2020-06-02 10:00:17,317 - robot.AI - AI.py - chat - line 84 - INFO - emotibot 回答：你这是在向我告白吗？
+2020-06-02 10:00:17,746 - robot.TTS - TTS.py - get_speech - line 72 - INFO - baidu-tts 语音合成成功，合成路径：/tmp/tmpukwzaw0h.mp3
+2020-06-02 10:04:25,972 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-02 10:04:25
+2020-06-02 10:04:27,040 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-02 10:04:29,884 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-02 10:04:30,422 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['四个动作组动作组1到4他是不动的，都是。']
+2020-06-02 10:04:33,738 - robot.AI - AI.py - chat - line 84 - INFO - emotibot 回答：换个话题OK吗？我想聊点其他的有趣的事~
+2020-06-02 10:04:34,044 - robot.TTS - TTS.py - get_speech - line 72 - INFO - baidu-tts 语音合成成功，合成路径：/tmp/tmpjc3r4578.mp3
+2020-06-02 11:32:18,964 - robot.ASR - ASR.py - get_engine_by_slug - line 102 - INFO - 使用 baidu-asr ASR 引擎
+2020-06-02 11:32:18,970 - robot.AI - AI.py - get_robot_by_slug - line 128 - INFO - 使用 emotibot 对话机器人
+2020-06-02 11:32:18,971 - robot.TTS - TTS.py - get_engine_by_slug - line 100 - INFO - 使用 baidu-tts TTS 引擎
+2020-06-02 11:32:18,976 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 CleanCache 加载成功 
+2020-06-02 11:32:18,980 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 LocalPlayer 加载成功 
+2020-06-02 11:32:18,983 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Volume 加载成功 
+2020-06-02 11:32:18,989 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Hass 加载成功 
+2020-06-02 11:32:18,993 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 RaspberryPiStatus 加载成功 
+2020-06-02 11:32:18,997 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 SpeakIP 加载成功 
+2020-06-02 11:32:19,867 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 crontab 加载成功 
+2020-06-02 11:32:19,870 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 getTime 加载成功 
+2020-06-02 11:32:19,871 - robot.Brain - Brain.py - printPlugins - line 52 - INFO - 已激活插件：['cleancache', 'LocalPlayer', 'Volume', 'hass', 'pi_status', 'speak_ip', 'crontab', 'getTime']
+2020-06-02 11:32:19,878 - robot.Conversation - Conversation.py - say - line 193 - INFO - 命中缓存，播放缓存语音
+2020-06-02 11:32:25,673 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-02 11:32:25
+2020-06-02 11:32:26,769 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-02 13:57:30,017 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-02 13:57:30,915 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['把灯打开。']
+2020-06-02 13:57:30,918 - robot.Brain - Brain.py - query - line 65 - INFO - '把灯打开。' 命中技能 hass
+2020-06-02 13:57:30,928 - robot.Brain - Brain.py - query - line 79 - CRITICAL - Failed to execute plugin
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 80, in create_connection
+    raise err
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 70, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.7/http/client.py", line 1244, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1290, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1239, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.7/http/client.py", line 966, in send
+    self.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 181, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 168, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x723a99d0>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8123): Max retries exceeded with url: /api/states (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x723a99d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/xiaobu-smartHome/xiaobu/robot/Brain.py", line 75, in query
+    continueHandle = plugin.handle(text, "")
+  File "/home/pi/xiaobu-smartHome/.xiaobu/custom/Hass.py", line 35, in handle
+    r = requests.get(url + ":" + port + "/api/states", headers=headers)
+  File "/home/pi/.local/lib/python3.7/site-packages/requests/api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/pi/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/pi/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/pi/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/pi/.local/lib/python3.7/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=8123): Max retries exceeded with url: /api/states (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x723a99d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2020-06-02 13:57:31,533 - robot.TTS - TTS.py - get_speech - line 72 - INFO - baidu-tts 语音合成成功，合成路径：/tmp/tmp37h4d11_.mp3
+2020-06-02 13:57:41,130 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-02 13:57:41
+2020-06-02 13:57:42,217 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-02 13:57:44,335 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-02 13:57:44,616 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['把灯打开。']
+2020-06-02 13:57:44,618 - robot.Brain - Brain.py - query - line 65 - INFO - '把灯打开。' 命中技能 hass
+2020-06-02 13:57:44,626 - robot.Brain - Brain.py - query - line 79 - CRITICAL - Failed to execute plugin
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 80, in create_connection
+    raise err
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 70, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.7/http/client.py", line 1244, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1290, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1239, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.7/http/client.py", line 966, in send
+    self.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 181, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 168, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x58318b50>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/.local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8123): Max retries exceeded with url: /api/states (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x58318b50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/xiaobu-smartHome/xiaobu/robot/Brain.py", line 75, in query
+    continueHandle = plugin.handle(text, "")
+  File "/home/pi/xiaobu-smartHome/.xiaobu/custom/Hass.py", line 35, in handle
+    r = requests.get(url + ":" + port + "/api/states", headers=headers)
+  File "/home/pi/.local/lib/python3.7/site-packages/requests/api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/pi/.local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/pi/.local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/pi/.local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/pi/.local/lib/python3.7/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=8123): Max retries exceeded with url: /api/states (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x58318b50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2020-06-02 13:57:44,631 - robot.Conversation - Conversation.py - say - line 193 - INFO - 命中缓存，播放缓存语音
+2020-06-02 13:58:09,683 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-02 13:58:09
+2020-06-02 13:58:10,760 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-02 13:58:12,807 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-02 13:58:13,056 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['把灯打开。']
+2020-06-02 13:58:13,058 - robot.Brain - Brain.py - query - line 65 - INFO - '把灯打开。' 命中技能 hass
+2020-06-02 13:58:13,786 - robot.Conversation - Conversation.py - say - line 193 - INFO - 命中缓存，播放缓存语音
+2020-06-02 13:58:27,769 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-02 13:58:27
+2020-06-02 13:58:28,871 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-02 13:58:30,976 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-02 13:58:31,352 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['把灯打开。']
+2020-06-02 13:58:31,355 - robot.Brain - Brain.py - query - line 65 - INFO - '把灯打开。' 命中技能 hass
+2020-06-02 13:58:32,144 - robot.Conversation - Conversation.py - say - line 193 - INFO - 命中缓存，播放缓存语音
+2020-06-02 13:58:35,113 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-02 13:58:35
+2020-06-02 13:58:36,231 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-02 13:58:39,107 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-02 13:58:39,406 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['把灯关了。']
+2020-06-02 13:58:39,409 - robot.Brain - Brain.py - query - line 65 - INFO - '把灯关了。' 命中技能 hass
+2020-06-02 13:58:40,194 - robot.Conversation - Conversation.py - say - line 193 - INFO - 命中缓存，播放缓存语音
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                2020-06-03 15:34:27,355 - robot.ASR - ASR.py - get_engine_by_slug - line 102 - INFO - 使用 baidu-asr ASR 引擎
+2020-06-03 15:34:27,361 - robot.AI - AI.py - get_robot_by_slug - line 128 - INFO - 使用 emotibot 对话机器人
+2020-06-03 15:34:27,362 - robot.TTS - TTS.py - get_engine_by_slug - line 100 - INFO - 使用 baidu-tts TTS 引擎
+2020-06-03 15:34:27,366 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 CleanCache 加载成功 
+2020-06-03 15:34:27,370 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 LocalPlayer 加载成功 
+2020-06-03 15:34:27,373 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Volume 加载成功 
+2020-06-03 15:34:27,379 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Hass 加载成功 
+2020-06-03 15:34:27,382 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 RaspberryPiStatus 加载成功 
+2020-06-03 15:34:27,395 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 SpeakIP 加载成功 
+2020-06-03 15:34:28,233 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 crontab 加载成功 
+2020-06-03 15:34:28,236 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 getTime 加载成功 
+2020-06-03 15:34:28,236 - robot.Brain - Brain.py - printPlugins - line 52 - INFO - 已激活插件：['cleancache', 'LocalPlayer', 'Volume', 'hass', 'pi_status', 'speak_ip', 'crontab', 'getTime']
+2020-06-03 15:34:28,244 - robot.Conversation - Conversation.py - say - line 193 - INFO - 命中缓存，播放缓存语音
+2020-06-03 16:48:02,975 - robot.ConfigMonitor - ConfigMonitor.py - on_modified - line 23 - INFO - 检测到文件 /home/pi/xiaobu-smartHome/.xiaobu/config.yml 发生变更
+2020-06-03 16:48:03,035 - robot.ASR - ASR.py - get_engine_by_slug - line 102 - INFO - 使用 baidu-asr ASR 引擎
+2020-06-03 16:48:03,037 - robot.AI - AI.py - get_robot_by_slug - line 128 - INFO - 使用 emotibot 对话机器人
+2020-06-03 16:48:03,038 - robot.TTS - TTS.py - get_engine_by_slug - line 100 - INFO - 使用 baidu-tts TTS 引擎
+2020-06-03 16:48:03,041 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 CleanCache 加载成功 
+2020-06-03 16:48:03,043 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 LocalPlayer 加载成功 
+2020-06-03 16:48:03,045 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Volume 加载成功 
+2020-06-03 16:48:03,050 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Hass 加载成功 
+2020-06-03 16:48:03,052 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 RaspberryPiStatus 加载成功 
+2020-06-03 16:48:03,055 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 SpeakIP 加载成功 
+2020-06-03 16:48:03,057 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 crontab 加载成功 
+2020-06-03 16:48:03,059 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 getTime 加载成功 
+2020-06-03 16:48:03,060 - robot.Brain - Brain.py - printPlugins - line 52 - INFO - 已激活插件：['cleancache', 'LocalPlayer', 'Volume', 'hass', 'pi_status', 'speak_ip', 'crontab', 'getTime']
+2020-06-03 16:48:03,115 - robot.ConfigMonitor - ConfigMonitor.py - on_modified - line 23 - INFO - 检测到文件 /home/pi/xiaobu-smartHome/.xiaobu/config.yml 发生变更
+2020-06-03 16:48:03,169 - robot.ASR - ASR.py - get_engine_by_slug - line 102 - INFO - 使用 baidu-asr ASR 引擎
+2020-06-03 16:48:03,170 - robot.AI - AI.py - get_robot_by_slug - line 128 - INFO - 使用 emotibot 对话机器人
+2020-06-03 16:48:03,171 - robot.TTS - TTS.py - get_engine_by_slug - line 100 - INFO - 使用 baidu-tts TTS 引擎
+2020-06-03 16:48:03,174 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 CleanCache 加载成功 
+2020-06-03 16:48:03,176 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 LocalPlayer 加载成功 
+2020-06-03 16:48:03,178 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Volume 加载成功 
+2020-06-03 16:48:03,183 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Hass 加载成功 
+2020-06-03 16:48:03,185 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 RaspberryPiStatus 加载成功 
+2020-06-03 16:48:03,187 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 SpeakIP 加载成功 
+2020-06-03 16:48:03,189 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 crontab 加载成功 
+2020-06-03 16:48:03,191 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 getTime 加载成功 
+2020-06-03 16:48:03,192 - robot.Brain - Brain.py - printPlugins - line 52 - INFO - 已激活插件：['cleancache', 'LocalPlayer', 'Volume', 'hass', 'pi_status', 'speak_ip', 'crontab', 'getTime']
+2020-06-03 16:48:17,688 - robot.ConfigMonitor - ConfigMonitor.py - on_modified - line 23 - INFO - 检测到文件 /home/pi/xiaobu-smartHome/.xiaobu/config.yml 发生变更
+2020-06-03 16:48:17,739 - robot.ASR - ASR.py - get_engine_by_slug - line 102 - INFO - 使用 baidu-asr ASR 引擎
+2020-06-03 16:48:17,740 - robot.AI - AI.py - get_robot_by_slug - line 128 - INFO - 使用 emotibot 对话机器人
+2020-06-03 16:48:17,741 - robot.TTS - TTS.py - get_engine_by_slug - line 100 - INFO - 使用 baidu-tts TTS 引擎
+2020-06-03 16:48:17,743 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 CleanCache 加载成功 
+2020-06-03 16:48:17,745 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 LocalPlayer 加载成功 
+2020-06-03 16:48:17,747 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Volume 加载成功 
+2020-06-03 16:48:17,750 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Hass 加载成功 
+2020-06-03 16:48:17,753 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 RaspberryPiStatus 加载成功 
+2020-06-03 16:48:17,755 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 SpeakIP 加载成功 
+2020-06-03 16:48:17,757 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 crontab 加载成功 
+2020-06-03 16:48:17,758 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 getTime 加载成功 
+2020-06-03 16:48:17,759 - robot.Brain - Brain.py - printPlugins - line 52 - INFO - 已激活插件：['cleancache', 'LocalPlayer', 'Volume', 'hass', 'pi_status', 'speak_ip', 'crontab', 'getTime']
+2020-06-03 16:48:17,814 - robot.ConfigMonitor - ConfigMonitor.py - on_modified - line 23 - INFO - 检测到文件 /home/pi/xiaobu-smartHome/.xiaobu/config.yml 发生变更
+2020-06-03 16:48:17,866 - robot.ASR - ASR.py - get_engine_by_slug - line 102 - INFO - 使用 baidu-asr ASR 引擎
+2020-06-03 16:48:17,867 - robot.AI - AI.py - get_robot_by_slug - line 128 - INFO - 使用 emotibot 对话机器人
+2020-06-03 16:48:17,868 - robot.TTS - TTS.py - get_engine_by_slug - line 100 - INFO - 使用 baidu-tts TTS 引擎
+2020-06-03 16:48:17,870 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 CleanCache 加载成功 
+2020-06-03 16:48:17,872 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 LocalPlayer 加载成功 
+2020-06-03 16:48:17,874 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Volume 加载成功 
+2020-06-03 16:48:17,877 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Hass 加载成功 
+2020-06-03 16:48:17,879 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 RaspberryPiStatus 加载成功 
+2020-06-03 16:48:17,886 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 SpeakIP 加载成功 
+2020-06-03 16:48:17,888 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 crontab 加载成功 
+2020-06-03 16:48:17,889 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 getTime 加载成功 
+2020-06-03 16:48:17,890 - robot.Brain - Brain.py - printPlugins - line 52 - INFO - 已激活插件：['cleancache', 'LocalPlayer', 'Volume', 'hass', 'pi_status', 'speak_ip', 'crontab', 'getTime']
+2020-06-03 16:53:17,850 - robot.ASR - ASR.py - get_engine_by_slug - line 102 - INFO - 使用 baidu-asr ASR 引擎
+2020-06-03 16:53:17,852 - robot.AI - AI.py - get_robot_by_slug - line 128 - INFO - 使用 emotibot 对话机器人
+2020-06-03 16:53:17,853 - robot.TTS - TTS.py - get_engine_by_slug - line 100 - INFO - 使用 baidu-tts TTS 引擎
+2020-06-03 16:53:17,856 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 CleanCache 加载成功 
+2020-06-03 16:53:17,859 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 LocalPlayer 加载成功 
+2020-06-03 16:53:17,862 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Volume 加载成功 
+2020-06-03 16:53:17,866 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Hass 加载成功 
+2020-06-03 16:53:17,869 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 RaspberryPiStatus 加载成功 
+2020-06-03 16:53:17,872 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 SpeakIP 加载成功 
+2020-06-03 16:53:18,831 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 crontab 加载成功 
+2020-06-03 16:53:18,833 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 getTime 加载成功 
+2020-06-03 16:53:18,834 - robot.Brain - Brain.py - printPlugins - line 52 - INFO - 已激活插件：['cleancache', 'LocalPlayer', 'Volume', 'hass', 'pi_status', 'speak_ip', 'crontab', 'getTime']
+2020-06-03 16:53:18,841 - robot.Conversation - Conversation.py - say - line 193 - INFO - 命中缓存，播放缓存语音
+2020-06-03 16:56:15,226 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-03 16:56:15
+2020-06-03 16:56:16,331 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-03 16:56:18,530 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-03 16:56:19,590 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['但但但但是就是现在就是。']
+2020-06-03 16:56:22,281 - robot.AI - AI.py - chat - line 84 - INFO - emotibot 回答：好啦~我知道了~
+2020-06-03 16:56:23,063 - robot.TTS - TTS.py - get_speech - line 72 - INFO - baidu-tts 语音合成成功，合成路径：/tmp/tmpqy8f6131.mp3
+2020-06-03 16:59:39,183 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-03 16:59:39
+2020-06-03 16:59:40,297 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-03 16:59:43,186 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-03 16:59:43,772 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['打针打开。']
+2020-06-03 16:59:45,353 - robot.AI - AI.py - chat - line 84 - INFO - emotibot 回答：咱们跳过这个话题吧，聊点其他的呗~
+2020-06-03 16:59:45,698 - robot.TTS - TTS.py - get_speech - line 72 - INFO - baidu-tts 语音合成成功，合成路径：/tmp/tmpi5svweer.mp3
+2020-06-03 16:59:51,103 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-03 16:59:51
+2020-06-03 16:59:52,202 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-03 16:59:55,202 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-03 16:59:55,544 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['把灯打开。']
+2020-06-03 16:59:55,547 - robot.Brain - Brain.py - query - line 65 - INFO - '把灯打开。' 命中技能 hass
+2020-06-03 16:59:56,276 - robot.Conversation - Conversation.py - say - line 193 - INFO - 命中缓存，播放缓存语音
+2020-06-03 17:01:40,863 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-03 17:01:40
+2020-06-03 17:01:41,961 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-03 17:01:44,288 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-03 17:01:44,821 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['把灯关了。']
+2020-06-03 17:01:44,823 - robot.Brain - Brain.py - query - line 65 - INFO - '把灯关了。' 命中技能 hass
+2020-06-03 17:01:45,580 - robot.Conversation - Conversation.py - say - line 193 - INFO - 命中缓存，播放缓存语音
+2020-06-03 17:43:58,335 - robot.ASR - ASR.py - get_engine_by_slug - line 102 - INFO - 使用 baidu-asr ASR 引擎
+2020-06-03 17:43:58,337 - robot.AI - AI.py - get_robot_by_slug - line 128 - INFO - 使用 emotibot 对话机器人
+2020-06-03 17:43:58,338 - robot.TTS - TTS.py - get_engine_by_slug - line 100 - INFO - 使用 baidu-tts TTS 引擎
+2020-06-03 17:43:58,342 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 CleanCache 加载成功 
+2020-06-03 17:43:58,345 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 LocalPlayer 加载成功 
+2020-06-03 17:43:58,348 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Volume 加载成功 
+2020-06-03 17:43:58,353 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Hass 加载成功 
+2020-06-03 17:43:58,356 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 RaspberryPiStatus 加载成功 
+2020-06-03 17:43:58,359 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 SpeakIP 加载成功 
+2020-06-03 17:43:59,301 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 crontab 加载成功 
+2020-06-03 17:43:59,302 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 getTime 加载成功 
+2020-06-03 17:43:59,303 - robot.Brain - Brain.py - printPlugins - line 52 - INFO - 已激活插件：['cleancache', 'LocalPlayer', 'Volume', 'hass', 'pi_status', 'speak_ip', 'crontab', 'getTime']
+2020-06-03 17:43:59,309 - robot.Conversation - Conversation.py - say - line 193 - INFO - 命中缓存，播放缓存语音
+2020-06-03 17:44:29,646 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-03 17:44:29
+2020-06-03 17:44:30,738 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-03 17:44:33,761 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-03 17:44:34,294 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['哦，是这样。']
+2020-06-03 17:44:34,770 - robot.AI - AI.py - chat - line 84 - INFO - emotibot 回答：你在怀疑我？人与精灵之间最基本的信任呢？
+2020-06-03 17:44:35,170 - robot.TTS - TTS.py - get_speech - line 72 - INFO - baidu-tts 语音合成成功，合成路径：/tmp/tmpkg_3nmyp.mp3
+2020-06-03 17:44:41,300 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-03 17:44:41
+2020-06-03 17:44:42,385 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-03 17:44:44,525 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-03 17:44:45,008 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['几点了？']
+2020-06-03 17:44:45,010 - robot.Brain - Brain.py - query - line 65 - INFO - '几点了？' 命中技能 getTime
+2020-06-03 17:44:45,190 - robot.TTS - TTS.py - get_speech - line 72 - INFO - baidu-tts 语音合成成功，合成路径：/tmp/tmph1lix0qe.mp3
+2020-06-03 17:44:59,469 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-03 17:44:59
+2020-06-03 17:45:00,562 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-03 17:45:03,076 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-03 17:45:03,528 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['把灯打开。']
+2020-06-03 17:45:03,531 - robot.Brain - Brain.py - query - line 65 - INFO - '把灯打开。' 命中技能 hass
+2020-06-03 17:45:04,230 - robot.Conversation - Conversation.py - say - line 193 - INFO - 命中缓存，播放缓存语音
+2020-06-03 17:47:10,118 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-03 17:47:10
+2020-06-03 17:47:11,185 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-03 17:47:13,635 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-03 17:47:13,908 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['北京天气。']
+2020-06-03 17:47:15,652 - robot.AI - AI.py - chat - line 84 - INFO - emotibot 回答：北京浮尘，风有点大，当心尘土迷到眼睛。预计气温19℃~34℃，当前33℃。空气中度污染，AQI为163，牵挂你的健康，出行戴上防雾霾口罩吧。
+2020-06-03 17:47:16,321 - robot.TTS - TTS.py - get_speech - line 72 - INFO - baidu-tts 语音合成成功，合成路径：/tmp/tmpbrspyd1l.mp3
+2020-06-03 17:47:38,991 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-03 17:47:38
+2020-06-03 17:47:40,113 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-03 17:47:43,024 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-03 17:47:43,222 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['IP地址。']
+2020-06-03 17:47:43,225 - robot.Brain - Brain.py - query - line 65 - INFO - 'IP地址。' 命中技能 speak_ip
+2020-06-03 17:47:43,436 - robot.TTS - TTS.py - get_speech - line 72 - INFO - baidu-tts 语音合成成功，合成路径：/tmp/tmpj0jaeb85.mp3
+2020-06-03 17:47:48,637 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-03 17:47:48
+2020-06-03 17:47:49,714 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-03 17:47:51,931 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-03 17:47:52,238 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['本地音乐。']
+2020-06-03 17:47:53,281 - robot.AI - AI.py - chat - line 84 - INFO - emotibot 回答：你是我的小呀小苹果，怎么爱你都不嫌多……
+2020-06-03 17:47:53,519 - robot.TTS - TTS.py - get_speech - line 72 - INFO - baidu-tts 语音合成成功，合成路径：/tmp/tmp2a4k2eec.mp3
+2020-06-03 17:47:59,788 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-03 17:47:59
+2020-06-03 17:48:00,849 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-03 17:48:02,898 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-03 17:48:03,175 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['我想听歌。']
+2020-06-03 17:48:03,177 - robot.Brain - Brain.py - query - line 65 - INFO - '我想听歌。' 命中技能 LocalPlayer
+2020-06-03 17:48:03,180 - LocalPlayer - LocalPlayer.py - init_music_player - line 28 - INFO - 本地音乐列表：[]
+2020-06-03 17:48:03,454 - robot.TTS - TTS.py - get_speech - line 72 - INFO - baidu-tts 语音合成成功，合成路径：/tmp/tmper78_5qd.mp3
+2020-06-04 08:56:26,695 - robot.ASR - ASR.py - get_engine_by_slug - line 102 - INFO - 使用 baidu-asr ASR 引擎
+2020-06-04 08:56:26,701 - robot.AI - AI.py - get_robot_by_slug - line 128 - INFO - 使用 emotibot 对话机器人
+2020-06-04 08:56:26,702 - robot.TTS - TTS.py - get_engine_by_slug - line 100 - INFO - 使用 baidu-tts TTS 引擎
+2020-06-04 08:56:26,707 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 CleanCache 加载成功 
+2020-06-04 08:56:26,715 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 LocalPlayer 加载成功 
+2020-06-04 08:56:26,720 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Volume 加载成功 
+2020-06-04 08:56:26,735 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 Hass 加载成功 
+2020-06-04 08:56:26,742 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 RaspberryPiStatus 加载成功 
+2020-06-04 08:56:26,745 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 SpeakIP 加载成功 
+2020-06-04 08:56:27,534 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 crontab 加载成功 
+2020-06-04 08:56:27,537 - robot.plugin_loader - plugin_loader.py - init_plugins - line 69 - INFO - 插件 getTime 加载成功 
+2020-06-04 08:56:27,537 - robot.Brain - Brain.py - printPlugins - line 52 - INFO - 已激活插件：['cleancache', 'LocalPlayer', 'Volume', 'hass', 'pi_status', 'speak_ip', 'crontab', 'getTime']
+2020-06-04 08:56:27,544 - robot.Conversation - Conversation.py - say - line 193 - INFO - 命中缓存，播放缓存语音
+2020-06-04 08:57:04,180 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-04 08:57:04
+2020-06-04 08:57:05,247 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-04 08:57:08,257 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-04 08:57:08,913 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['把灯打开。']
+2020-06-04 08:57:08,917 - robot.Brain - Brain.py - query - line 65 - INFO - '把灯打开。' 命中技能 hass
+2020-06-04 08:57:09,708 - robot.Conversation - Conversation.py - say - line 193 - INFO - 命中缓存，播放缓存语音
+2020-06-04 09:02:15,841 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-04 09:02:15
+2020-06-04 09:02:16,921 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-04 09:02:19,249 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-04 09:02:19,525 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['把灯打开。']
+2020-06-04 09:02:19,528 - robot.Brain - Brain.py - query - line 65 - INFO - '把灯打开。' 命中技能 hass
+2020-06-04 09:02:20,273 - robot.Conversation - Conversation.py - say - line 193 - INFO - 命中缓存，播放缓存语音
+2020-06-04 09:40:35,675 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-04 09:40:35
+2020-06-04 09:40:36,738 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-04 09:40:38,867 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-04 09:40:39,111 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['李白的静夜思。']
+2020-06-04 09:40:40,411 - robot.AI - AI.py - chat - line 84 - INFO - emotibot 回答：李白的那首么
+2020-06-04 09:40:41,057 - robot.TTS - TTS.py - get_speech - line 72 - INFO - baidu-tts 语音合成成功，合成路径：/tmp/tmplg5c1x27.mp3
+2020-06-04 09:40:44,493 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-04 09:40:44
+2020-06-04 09:40:45,570 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-04 09:40:48,520 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-04 09:40:48,959 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['背李白的静夜思。']
+2020-06-04 09:40:50,187 - robot.AI - AI.py - chat - line 84 - INFO - emotibot 回答：李白的那首么
+2020-06-04 09:40:50,189 - robot.Conversation - Conversation.py - say - line 193 - INFO - 命中缓存，播放缓存语音
+2020-06-04 09:40:53,431 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-04 09:40:53
+2020-06-04 09:40:54,530 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-04 09:40:57,430 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-04 09:40:57,688 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['背诵李白的静夜思。']
+2020-06-04 09:41:01,763 - robot.AI - AI.py - chat - line 84 - INFO - emotibot 回答：床前明月光，疑是地上霜。 举头望明月，低头思故乡。
+2020-06-04 09:41:01,969 - robot.TTS - TTS.py - get_speech - line 72 - INFO - baidu-tts 语音合成成功，合成路径：/tmp/tmpsk11b3jm.mp3
+2020-06-04 11:27:23,800 - snowboy - snowboydecoder.py - start - line 343 - INFO - Keyword 1 detected at time: 2020-06-04 11:27:23
+2020-06-04 11:27:24,931 - __main__ - xiaobu.py - start_record - line 73 - INFO - 开始录音
+2020-06-04 11:27:27,791 - robot.Conversation - Conversation.py - converse - line 108 - INFO - 结束录音
+2020-06-04 11:27:28,554 - robot.ASR - ASR.py - transcribe - line 70 - INFO - baidu-asr 语音识别到了：['对啊！']
+2020-06-04 11:27:29,307 - robot.AI - AI.py - chat - line 84 - INFO - emotibot 回答：要得要得!
+2020-06-04 11:27:29,525 - robot.TTS - TTS.py - get_speech - line 72 - INFO - baidu-tts 语音合成成功，合成路径：/tmp/tmphzwa8fev.mp3
